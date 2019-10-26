@@ -4,7 +4,7 @@ By Oscar Bennett
 
 I used the [julia programming language](https://julialang.org) to generate julia sets and to plot and animate the beautiful [fractal patterns](https://en.wikipedia.org/wiki/Fractal) that the set produces. I chose julia because its an interesting and fairly new language designed to be easy to use and extremely efficient for numerically intensive calculations. Indeed when I compared this julia code to equivalent code written in python I found julia to be x50-x100 faster!
 
-<p align="center"><img src="./resources/julia_set_example.png" width="400"></p>
+<p align="center"><img src="./resources/julia_set_example.png" width="600"></p>
 
 A nice explanation of what the julia set is can be found [here](https://www.karlsims.com/julia.html). Specifically I looked at julia sets of the function f(z) = z^2 + c where z and c are complex. Different sets and different patterns are produced by setting c to different values. x and y position in the image correspond to the real and imaginary parts of z (z = x +iy). The above is an example of a julia set created with the setting `c = -0.5 + 0.61i`.
 
