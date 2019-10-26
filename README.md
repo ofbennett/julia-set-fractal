@@ -14,14 +14,14 @@ Creating these sets with julia was so fast (seconds) I was able generate a whole
 
 If you want to run this code to generate and plot your own julia fractal:
 - [Install Julia](https://julialang.org/downloads/) and [add it to your path](https://en.wikibooks.org/wiki/Introducing_Julia/Getting_started)
-- Use the julia package manager `Pkg` to install the `Plots` package. Comprehensive instructions [here](https://docs.julialang.org/en/v1/stdlib/Pkg/index.html), but a brief summary: type `julia`, type `]`, type `add Plots`, type `backspace`, type `exit()`
+- Use the julia package manager `Pkg` to install the `Plots` package. Comprehensive instructions [here](https://docs.julialang.org/en/v1/stdlib/Pkg/index.html), but a brief summary: type `julia`, type `]`, type `add Plots`, type `backspace`, type `exit()` and you're done.
 - clone this repo and cd into it
 - run `julia julia_set.jl`
 - run `julia plot_julia_set.jl`
 
 A `julia_set.png` file will then be generated with a picture of your fractal!
 
-There are a few variable parameters which are set to sensible values but could be altered if you wish. Have a play with them and see how they affect the pattern.
+There are a few variable parameters in the `julia_set.jl` code which are set to sensible values but could be altered if you wish. Have a play with them and see how they affect the pattern.
 ```julia
 c = complex(-0.5, 0.61) # constant in the z^2 + c function
 
