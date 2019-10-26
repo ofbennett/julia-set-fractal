@@ -10,7 +10,7 @@ A nice explanation of what the julia set is can be found [here](https://www.karl
 
 Creating these sets with julia was so fast (seconds) I was able generate a whole sequence of julia sets whilst gradually changing the value of c. This allowed me to generate an animation of the fractal structure morphing as c changed:
 
-<p align="center"><img src="./video/julia_video.gif" width="400"></p>
+<p align="center"><img src="./resources/julia_video.gif" width="400"></p>
 
 If you want to run this code to generate and plot your own julia fractal:
 - [Install Julia](https://julialang.org/downloads/) and [add it to your path](https://en.wikibooks.org/wiki/Introducing_Julia/Getting_started)
