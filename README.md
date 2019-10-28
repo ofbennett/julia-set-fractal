@@ -34,9 +34,10 @@ min_y, max_y = -1, 1  # range of y (in z = x + iy) to iterate through
 
 If you would also like to produce a fractal animation:
 - Check if you have [ffmpeg](https://www.ffmpeg.org) installed. If not, install it.
-- run `julia video/julia_sets.jl`
-- run `julia video/make_video.jl`
+- run `cd video`
+- run `julia julia_sets.jl`
+- run `julia make_video.jl`
 
-A `video/julia_video.gif` file will be generated with an animation of your fractal.
+A `julia_video.gif` file will be generated with an animation of your fractal.
 
 Please feel free to let me know about any suggestions or issues!
