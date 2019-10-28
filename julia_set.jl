@@ -23,9 +23,9 @@ function gen_julia()
             while(abs2(z) < max_z2 && it < max_it)
                 z = julia_func(z)
                 it += 1
+            end
             ratio = it/max_it
             julia_set[ix,iy] = ratio
-            end
         end
     end
     return julia_set
