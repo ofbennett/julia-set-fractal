@@ -14,7 +14,7 @@ Creating these sets with julia was so fast (seconds) I was able generate a whole
 
 If you want to run this code to generate and plot your own julia fractal:
 - [Install Julia](https://julialang.org/downloads/) and [add it to your path](https://en.wikibooks.org/wiki/Introducing_Julia/Getting_started)
-- Use the julia package manager `Pkg` to install the `Plots` package. Comprehensive instructions [here](https://docs.julialang.org/en/v1/stdlib/Pkg/index.html), but a brief summary: type `julia`, type `]`, type `add Plots`, type `backspace`, type `exit()` and you're done.
+- Use the julia package manager `Pkg` to install the `Plots` package. Comprehensive instructions [here](https://docs.julialang.org/en/v1/stdlib/Pkg/index.html), but a brief summary: In your command line type `julia`, type `]`, type `add Plots`, type `backspace`, type `exit()` and you're done.
 - clone this repo and cd into it
 - run `julia julia_set.jl`
 - run `julia plot_julia_set.jl`
