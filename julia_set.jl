@@ -2,7 +2,7 @@ using Serialization
 
 function julia_func(z)
     c = complex(-0.5, 0.61)
-    z = z^2 +c
+    z = z^2 + c
     return z
 end
 

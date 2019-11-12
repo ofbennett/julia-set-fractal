@@ -3,7 +3,7 @@ using Serialization
 function julia_func(z,frame)
     k = frame*0.002
     c = complex(-0.5, 0.66-k)
-    z = z^2 +c
+    z = z^2 + c
     return z
 end
 

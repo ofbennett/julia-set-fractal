@@ -12,6 +12,7 @@ function make_fig()
             savefig(img,"./imgs/julia_set_$frame.png")
         else
             println("If more than 100 frames code needs to be modified here")
+            break
         end
     end
     run(`ffmpeg -r 10 -i ./imgs/julia_set_%02d.png julia_video.gif`)
