@@ -1,4 +1,5 @@
-# Julia Set Fractal - The Julia Set Fractal generated and animated with julia
+# Julia Set Fractal
+### The Julia Set Fractal generated and animated with julia
 
 By Oscar Bennett
 
