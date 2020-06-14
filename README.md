@@ -53,12 +53,12 @@ A `julia_video.gif` file will be generated with an animation of your fractal.
 
 ## Python Comparison
 
-The `python` directory contains equivalent fractal generation code written in Python for run-time speed comparison purposes. There are two versions of the python code.
+The `python` directory contains equivalent fractal generation code written in Python for run-time speed comparison. There are two versions of the python code.
 
 - `julia_set.py`: Directly equivalent to the julia code. Algorithm structured in the same way.
 - `julia_set_optimised.py`: The Python code re-written to use vectorized numpy operations to improve the numerical efficiency of the code.
 
-You can also generate the fractal image with the Python code in `plot_julia_set.py`.
+If you like, you can also generate the fractal image with the Python code in `plot_julia_set.py`.
 
 ## My Benchmark Measurements
 Run on my MacBook Pro 2014. 2.5 GHz Quad-Core Intel Core i7.
