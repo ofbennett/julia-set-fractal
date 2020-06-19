@@ -1,5 +1,5 @@
 # Julia Set Fractal
-### The Julia Set Fractal generated and animated with julia
+### The Julia Set Fractal generated and animated with julia. Benchmarked against Python.
 
 By Oscar Bennett
 
