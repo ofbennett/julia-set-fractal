@@ -5,7 +5,7 @@ By Oscar Bennett
 
 ## Overview
 
-I used the [julia programming language](https://julialang.org) to generate julia sets and to plot and animate the beautiful [fractal patterns](https://en.wikipedia.org/wiki/Fractal) that the set produces. I chose julia because its an interesting and fairly new language designed to be easy to use and extremely efficient for numerically intensive calculations. Indeed when I compared this julia code to equivalent code written in python I found julia to be x50-x100 faster!
+I used the [julia programming language](https://julialang.org) to generate julia sets and to plot and animate the beautiful [fractal patterns](https://en.wikipedia.org/wiki/Fractal) that the set produces. I chose julia because its an interesting and fairly new language designed to be easy to use and extremely efficient for numerically intensive calculations. I also implemented the same program in Python in a range of different ways to compare run times. See below for my benchmark runs.
 
 <p align="center"><img src="./resources/julia_set_example.png" width="600"></p>
 
@@ -51,12 +51,13 @@ If you would also like to produce a fractal animation:
 
 A `julia_video.gif` file will be generated with an animation of your fractal.
 
-## Python Comparison
+## Python Comparisons
 
 The `python` directory contains equivalent fractal generation code written in Python for run-time speed comparison. There are three versions of the python code.
 
 - `julia_set.py`: Directly equivalent to the julia code. Algorithm structured in the same way.
-- `julia_set_optimised.py`: The Python code re-written to use vectorized numpy operations to improve the numerical efficiency of the code.
+- `julia_set_vectorized.py`: The Python code re-written to use vectorized numpy operations to improve the numerical efficiency of the code.
+- `julia_set_numba.py`: Directly equivalent to the julia code. Algorithm structured in the same way. [Numba](http://numba.pydata.org) LLVM JIT used to pre-compile parts of the Python code before execution.
 
 If you like, you can also generate the fractal image with the Python code in `plot_julia_set.py`.
 
@@ -65,6 +66,7 @@ Run on my MacBook Pro 2014. 2.5 GHz Quad-Core Intel Core i7.
 
 - `julia_set.jl`: 1.8 seconds
 - `julia_set.py`: 300 seconds
-- `julia_set_optimised.py`: 103 seconds
+- `julia_set_vectorized.py`: 103 seconds
+- `julia_set_numba.py`: 3.5 seconds
 
 Please feel free to let me know about any suggestions or issues!
