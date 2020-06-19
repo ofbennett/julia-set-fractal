@@ -57,7 +57,7 @@ The `python` directory contains equivalent fractal generation code written in Py
 
 - `julia_set.py`: Directly equivalent to the julia code. Algorithm structured in the same way.
 - `julia_set_vectorized.py`: The Python code re-written to use vectorized numpy operations to improve the numerical efficiency of the code.
-- `julia_set_numba.py`: Directly equivalent to the julia code. Algorithm structured in the same way. [Numba](http://numba.pydata.org) LLVM JIT used to pre-compile parts of the Python code before execution.
+- `julia_set_numba.py`: Algorithm structured in the same way. [Numba](http://numba.pydata.org) LLVM JIT used to pre-compile parts of the Python code before execution.
 
 If you like, you can also generate the fractal image with the Python code in `plot_julia_set.py`.
 
