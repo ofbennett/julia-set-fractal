@@ -62,7 +62,7 @@ The `python` directory contains equivalent fractal generation code written in Py
 If you like, you can also generate the fractal image with the Python code in `plot_julia_set.py`.
 
 ## My Benchmark Measurements
-Run on my MacBook Pro 2014. 2.5 GHz Quad-Core Intel Core i7.
+Run on my MacBook Pro 2014. 2.5 GHz Quad-Core Intel Core i7 with default parameter settings.
 
 - `julia_set.jl`: 1.8 seconds
 - `julia_set.py`: 300 seconds
